@@ -1,7 +1,10 @@
 .logo{
-   height: 6rem;
+   height: 5rem;
 }
-.mr-auto{
-    align-items: flex-end;
-
+.navbare{
+  
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
 }

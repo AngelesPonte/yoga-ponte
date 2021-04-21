@@ -1,0 +1,20 @@
+.itemListContainer{
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: rgb(59, 59, 59);
+    }
+.background{
+    background-image: url(../../img/Greeting/vrik-phone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100vw 
+    }
+    @media screen and (min-width: 685px) {
+        .background{
+          background-image: url(../../img/Greeting/vrik-large.jpg)
+        }
+        .itemListContainer{
+          font-size: 2rem;}
+    }
