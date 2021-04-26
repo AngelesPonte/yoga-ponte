@@ -1,4 +1,4 @@
-import { Button, Navbar, Nav, Form, FormControl } from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
 import logo from '../../../src/img/lylogo.png';
@@ -23,13 +23,10 @@ export const Navbare = () => {
             <Nav.Link eventKey={2} href="#memes">Sign In</Nav.Link>
             </Nav>
         </Navbar.Collapse>
-        
         </Navbar>
-        
         </header>
         </div>
-    )
-}
+    )}
 
 //<img src="" alt="logo" />
 //<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
