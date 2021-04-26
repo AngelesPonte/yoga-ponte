@@ -10,12 +10,13 @@ export const Navbare = () => {
         <header>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbare">
                 <img src={logo} className="logo" alt="Live Yogi" />
+            
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse  id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-            <Nav.Link href="#library">Full Library</Nav.Link>
-            <Nav.Link href="#method">My Method</Nav.Link>
-            <Nav.Link href="#practice">My Practice</Nav.Link>
+            <Nav className="mr-auto ">
+                <Nav.Link href="#library">Full Library</Nav.Link>
+                <Nav.Link href="#method">My Method</Nav.Link>
+                <Nav.Link href="#practice">My Practice</Nav.Link>
             </Nav>
             <CartWidget/>
             <Nav>
@@ -23,6 +24,7 @@ export const Navbare = () => {
             <Nav.Link eventKey={2} href="#memes">Sign In</Nav.Link>
             </Nav>
         </Navbar.Collapse>
+   
         </Navbar>
         </header>
         </div>

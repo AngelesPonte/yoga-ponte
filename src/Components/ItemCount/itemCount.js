@@ -6,7 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function ItemCount () {
     const [count, setCount] = useState(0);
     const stock = 10;
-    if (count>stock); {
+    useEffect(() => {
+      
+      return () => {
+      
+      }
+    },
+    [(count > stock && count >1)]);
+    
  return(
       <article className="card-center">
       <div className="card1">
@@ -41,7 +48,7 @@ function ItemCount () {
     </div>
     </article>
 )}
-}
+
 export default ItemCount;
 
 
