@@ -3,14 +3,16 @@ import './item.css';
 import { Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Item  (props) {
-  return (
+export const Item = (props) => (
+  
  <div>
      <h2>{props.title}</h2>
      <p>{props.price}</p>
      <p>{props.description}</p>
- </div>   
-)}
+ </div> 
+  
+  
+)
     /*<div className="card1">
     <Card style={{ width:'18rem'}}>
       <Card.Img variant="top" src="holder.js/100px180" />
