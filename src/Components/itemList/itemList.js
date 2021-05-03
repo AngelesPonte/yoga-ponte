@@ -28,7 +28,7 @@ useEffect(() => {
 
 
 return(
-    <div>
+    <div className='flexRowCards'>
         {products ? 
               products.map((product) => (
                 <Item
