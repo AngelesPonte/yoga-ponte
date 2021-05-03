@@ -12,15 +12,7 @@
     height: 75vh;
     width: 100vw 
     }
-    .freeTrial{
-      background-color: #63646d;
-      color: white;
-      border:  solid #30f0c6;
-    }    
-    .freeTrial:hover {
-      background-color: white;
-      color: #63646d;
-    }
+    
     @media screen and (min-width: 685px) {
         .background{
           background-image: url(../../img/Greeting/vrik-large.jpg)

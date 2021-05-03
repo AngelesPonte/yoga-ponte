@@ -7,7 +7,6 @@ export const Greeting = () => {
       <div className="background">
       </div>  
       <h1 className="greeting">Tap your most highest potential, cultivate your practice and become the best version of yourself </h1>
-      <button className="freeTrial">Start free trial</button>
       </article>
         )
 }
