@@ -8,9 +8,6 @@ export const Item = (props) => {
    <Card style={{ width:'18rem'}}>
      <Card.Body>
      <Card.Title>{props.title}</Card.Title>
-     <p>{props.price}</p>
-     <Card.Text>{props.description}</Card.Text>
-     <Button variant="primary">Start free trial</Button>
      </Card.Body>
      </Card>
  </div> 
