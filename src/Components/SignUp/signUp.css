@@ -1,0 +1,9 @@
+.signUp{
+    height: 60vh;
+}
+.backgroundSignUp {
+  height: inherit;
+  width: 100vw;
+  margin: 0px;
+  background: linear-gradient(354deg, #e2dade 0%, #94e9cd 100%);
+}

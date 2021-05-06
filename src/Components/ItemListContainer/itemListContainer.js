@@ -10,7 +10,7 @@ function ItemListContainer() {
 
 return (
     <div>
-        <button className="freeTrial" > Start Free Trial</button>
+        
         <div>{member}</div>
         <ItemList/>
         <ItemDetailContainer/>

@@ -1,0 +1,48 @@
+.home {
+    font-family: inherit;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #63646d;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+
+    }
+.background{
+    background-image: url(../../img/Greeting/vrik-phone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100vw 
+    }
+.freeTrial{
+        background-color: #63646d;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-size: 1.2rem;
+        color: white;
+        border:  solid #30f0c6;
+      }    
+.freeTrial:hover {
+        background-color: white;
+        color: #63646d;
+      }
+.center{
+    text-align: center;
+}
+.mainDescription{
+    font-size: 1.5rem;
+    color: #63646d;
+}
+    
+    @media screen and (min-width: 685px) {
+        .background{
+          background-image: url(../../img/Greeting/vrik-large.jpg)
+        }
+        .home {
+            font-size: 2.2rem;
+            margin: 0.5rem;
+            }
+        .mainDescription{
+            
+        }
+    }
