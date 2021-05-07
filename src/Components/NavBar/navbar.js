@@ -7,7 +7,7 @@ import {CartWidget} from '../CartWidget/cartWidget'
 export const Navbare = () => {
       return(
         <div>
-        <header>
+        <header className="centre">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbare">
                 <img src={logo} className="logo" alt="Live Yogi" />
             

@@ -2,8 +2,7 @@
    height: 5rem;
 }
 .navbare{
-   background: rgb(157,161,160);
-   background: -moz-linear-gradient(180deg, rgba(157,161,160,0.5130427170868348) 0%, rgba(187,187,187,0.20211834733893552) 56%);
-   background: -webkit-linear-gradient(180deg, rgba(157,161,160,0.5130427170868348) 0%, rgba(187,187,187,0.20211834733893552) 56%);
-   background: linear-gradient(180deg, rgba(157,161,160,0.5130427170868348) 0%, rgba(187,187,187,0.20211834733893552) 56%);
+   background-color:white;
+   opacity: 0.7;
+   
 }

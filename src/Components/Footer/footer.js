@@ -13,9 +13,9 @@ import sp from '../../../src/img/Icons/sp.png';
 export const Footer = () => {
     return(
         <Container>
-        <footer>
+        <footer className="center">
             <h4 className="home">Social Media</h4>
-            <Row className="li">
+            <Row className="li center">
             <li><img src={ig} width="30rem" alt="instagram"/></li>
             <li><img src={fb} width="30rem" alt="facebook"/></li>
             <li><img src={yt} width="30rem" alt="YouTube"/></li>
