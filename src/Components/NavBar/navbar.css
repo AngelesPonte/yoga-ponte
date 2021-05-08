@@ -4,5 +4,7 @@
 .navbare{
    background-color:white;
    opacity: 0.7;
-   
+}
+.navOptions{
+   font-family: lml;
 }

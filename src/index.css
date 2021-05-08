@@ -1,3 +1,49 @@
+@font-face {
+  font-family: ttl;
+  src:local('ttl'), url(../src/Fonts/TT-Norms-Fonts/TTNorms-Light.otf) format('truetype') ;
+}
+@font-face {
+  font-family: ttr;
+  src:local('ttr'), url(../src/Fonts/TT-Norms-Fonts/TTNorms-Regular.otf) format('truetype') ;
+}
+/*
+@font-face {
+  font-family: ttm;
+  src:local('ttl'), url(../src/Fonts/TT-Norms-Fonts/TTNorms-Light.otf) format('truetype') ;
+}
+
+
+
+@font-face {
+  font-family: tth;
+  src: url(../css/Fonts/TT-Norms-Fonts/TTNorms-Heavy.otf);
+}
+
+@font-face {
+  font-family: ttb;
+  src: url(../css/Fonts/TT-Norms-Fonts/TTNorms-Bold.otf);
+}
+*/
+@font-face {
+  font-family: lml;
+  src:local('lml'), url(../src/Fonts/lemon_milk/LEMONMILK-Light.otf) format('truetype') ;
+}
+
+@font-face {
+  font-family: lmm;
+  src:local('lmm'), url(../src/Fonts/lemon_milk/LEMONMILK-Medium.otf) format('truetype') ;
+}
+
+@font-face {
+  font-family: lmr;
+  src:local('lmr'), url(../src/Fonts/lemon_milk/LEMONMILK-Regular.otf) format('truetype') ;
+}
+
+@font-face {
+  font-family: lmb;
+  src:local('lmb'), url(../src/Fonts/lemon_milk/LEMONMILK-Bold.otf) format('truetype') ;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

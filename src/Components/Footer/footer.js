@@ -7,16 +7,16 @@ import fb from '../../../src/img/Icons/fb.png';
 import ig from '../../../src/img/Icons/ig.png';
 import yt from '../../../src/img/Icons/yt.png';
 import sp from '../../../src/img/Icons/sp.png';
-
+import { Link } from 'react-router-dom';
 
 
 export const Footer = () => {
     return(
         <Container>
-        <footer className="center">
+        <footer>
             <h4 className="home">Social Media</h4>
-            <Row className="li center">
-            <li><img src={ig} width="30rem" alt="instagram"/></li>
+            <Row className="li">
+            <Link to=""><li><img src={ig} width="30rem" alt="instagram"/></li></Link>
             <li><img src={fb} width="30rem" alt="facebook"/></li>
             <li><img src={yt} width="30rem" alt="YouTube"/></li>
             <li><img src={sp} width="30rem" alt="spotify"/></li>
