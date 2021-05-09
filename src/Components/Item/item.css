@@ -1,0 +1,24 @@
+.card1{
+    border: solid #63646d;
+    border-radius:0rem;
+    width: 18rem;
+}
+.titleMemb{
+    font-family: lmb;
+    font-size: 1.4rem;
+    color: #30f0c6;
+}
+.price{
+    color: #30f0c6;
+    font-family: lmb;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+}
+.membDescription{
+        color: #63646d;
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0.8rem;
+        line-height: 1.6;
+        font-family: ttl;
+    }

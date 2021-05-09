@@ -16,14 +16,14 @@ export const Footer = () => {
         <footer>
             <h4 className="home">Social Media</h4>
             <Row className="li">
-            <Link to=""><li><img src={ig} width="30rem" alt="instagram"/></li></Link>
-            <li><img src={fb} width="30rem" alt="facebook"/></li>
-            <li><img src={yt} width="30rem" alt="YouTube"/></li>
-            <li><img src={sp} width="30rem" alt="spotify"/></li>
+            <Link to="https://www.instagram.com/angieponte/"><li className="iconFooter"><img src={ig} width="30rem" alt="instagram"/></li></Link>
+            <li className="iconFooter"><img src={fb} width="30rem" alt="facebook"/></li>
+            <li className="iconFooter"><img src={yt} width="30rem" alt="YouTube"/></li>
+            <li className="iconFooter"><img src={sp} width="30rem" alt="spotify"/></li>
             </Row>
         </footer>
-                <Container>
-                     <p> © 2020 Live Yogi Studio. All Rights Reserved.</p>
+                <Container className="mainDescription">
+                     <p> © 2021 Live Yogi Studio. All Rights Reserved.</p>
                 </Container>
           </Container> 
 

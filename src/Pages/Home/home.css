@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
-    width: 100vw 
+    width: 100vw; 
     }
 .freeTrial{
         background-color: #63646d;
@@ -29,6 +29,7 @@
       }
 .center{
     text-align: center;
+    justify-content: center;
 }
 .mainDescription{
     color: #63646d;
@@ -41,8 +42,9 @@
 .title{
     font-family: lmm;
     font-size: 1.4rem;
-    columns: #585A73;
+    color: #585A73;
 }
+
     @media screen and (min-width: 685px) {
         .background{
           background-image: url(../../img/Greeting/vrik-large.jpg)

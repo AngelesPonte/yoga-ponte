@@ -2,7 +2,6 @@ import './itemListContainer.css'
 import {useState} from 'react'
 import {useEffect} from 'react'
 import ItemList from '../itemList/itemList'
-import ItemDetailContainer from '../itemDetailContainer/itemDetailContainer'
 
 function ItemListContainer() {
     const [member, setMember] = useState([])
@@ -10,10 +9,10 @@ function ItemListContainer() {
 
 return (
     <div>
-        
+        <h3 className="home">Memberships</h3>
         <div>{member}</div>
         <ItemList/>
-        <ItemDetailContainer/>
+        
     </div>
 )
 }

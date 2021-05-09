@@ -1,7 +1,8 @@
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import {SignUp} from '../../Components/SignUp/signUp'
+import {SignUp} from '../../Components/SignUp/signUp';
+import ItemListContainer from '../../Components/ItemListContainer/itemListContainer';
 
 export const Home = () => {
   return(
@@ -17,6 +18,7 @@ export const Home = () => {
         <p>Connect with a one of a kind global community. Find spiritual friends & meditations partners, what Buddhist call SANGHA, one of the tree jewels of your path.</p>
         </Container>
         <SignUp/>
+        <ItemListContainer/>
       </article>
         )
 }
