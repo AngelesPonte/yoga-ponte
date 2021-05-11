@@ -1,7 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import './itemCount.css';
-import { Card, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState, useEffect } from 'react';
+import { Button, Card } from 'react-bootstrap';
 
 function ItemCount () {
     const [count, setCount] = useState(1);
@@ -34,7 +32,6 @@ useEffect(() => {
 )}
 
 export default ItemCount;
-
 
 
 

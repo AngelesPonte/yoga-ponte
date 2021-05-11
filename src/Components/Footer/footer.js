@@ -16,7 +16,7 @@ export const Footer = () => {
         <footer>
             <h4 className="home">Social Media</h4>
             <Row className="li">
-            <Link to="https://www.instagram.com/angieponte/"><li className="iconFooter"><img src={ig} width="30rem" alt="instagram"/></li></Link>
+            <li className="iconFooter"><img src={ig} width="30rem" alt="instagram"/></li>
             <li className="iconFooter"><img src={fb} width="30rem" alt="facebook"/></li>
             <li className="iconFooter"><img src={yt} width="30rem" alt="YouTube"/></li>
             <li className="iconFooter"><img src={sp} width="30rem" alt="spotify"/></li>
