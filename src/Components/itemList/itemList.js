@@ -19,18 +19,21 @@ useEffect(() => {
         title:'Monthly',
         price:10,
         description:'Full accces for a monthly payment of 10 USD.Charges you every month and you can cancel anytime you want.', 
+        caracteristics:'a',
     },
     {
         id:2,
         title:'Anually',
         price:100,
-        description:'Full accces for a year. Pay one time a year. Find Live Yogi for only 27¢ a day!',     
+        description:'Full accces for a year. Pay one time a year. Find Live Yogi for only 27¢ a day!',  
+        caracteristics:'a',   
     },
     {
         id:3,
         title:'Gift love',
         price:10,
-        description:'Gift a month of yoga online streaming. The Giftcard will be delivered and will start when the User logs in.',        
+        description:'Gift a month of yoga online streaming. The Giftcard will be delivered and will start when the User logs in.',
+        caracteristics:'a',        
     }])  
     }, 3000);
   }, []);
@@ -45,6 +48,7 @@ return(
                     title= {product.title}
                     price = {product.price}
                     description = {product.description}
+                    caracteristics={product.caracteristics}
                 />
             ))
         :

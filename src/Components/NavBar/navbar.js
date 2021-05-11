@@ -16,7 +16,7 @@ export const Navbare = () => {
         <Navbar.Collapse  id="responsive-navbar-nav">
             <Nav className="mr-auto navOptions">
                 <Nav.Link as={Link} to="FullLibrary">Full Library</Nav.Link>
-                <Nav.Link href="#method">My Method</Nav.Link>
+                <Nav.Link href="#method">The Method</Nav.Link>
                 <Nav.Link href="#practice">My Practice</Nav.Link>
             </Nav>
             <CartWidget/>

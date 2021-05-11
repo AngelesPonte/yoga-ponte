@@ -14,21 +14,19 @@ useEffect(() => {
 }});
     
  return(
-      <article className="card-center">
-      <div className="card1">
-    <Card style={{ width: '18rem' }}>
+    
+    
+    <Card className="card1">
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Monthly Membership</Card.Title>
-        <Card.Text> </Card.Text>
+       
         <Button onClick={() => setCount (count - 1)} variant="primary">-</Button>
-         <p> {count} membership </p>
+        <Button> {count} Add to cart </Button>
         <Button onClick={() => setCount (count + 1)} variant="primary">+</Button>
       </Card.Body>
     </Card>
-    </div>
-    
-    </article>
+  
+
 )}
 
 export default ItemCount;
